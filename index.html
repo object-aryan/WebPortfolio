@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Hidden checkbox for mobile menu -->
+    <input type="checkbox" id="menu-toggle" />
+
+    <nav class="navbar">
+      <!-- LEFT -->
+      <div class="nav-left">
+        <label for="menu-toggle" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Profile picture -->
+        <img src="../portfolio/assets/icons8-user-96.png" alt="Profile" class="profile-img" />
+      </div>
+
+      <!-- CENTER -->
+      <div class="nav-center">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="nav-right">
+        <a href="../portfolio/assets/Aryan_Singh_FullStack_Resume.docx" download>Resume</a>
+      </div>
+    </nav>
+
+    <!-- MOBILE NAVIGATION -->
+
+    <div class="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+
+        <h1>Aryan Kumar Singh</h1>
+        <h2>Full Stack Developer</h2>
+        <p class="hero-description">
+          I build responsive and user-friendly web applications using modern
+          frontend and backend technologies. Currently focused on React,
+          Node.js,Express.js and MySQL.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn"> View Projects </a>
+          <a href="#contact" class="btn secondary-btn"> Contact Me </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="../portfolio/assets/profileAryan.jpeg" alt="Aryan Kumar Singh" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <!-- ================= LEFT ================= -->
+        <div class="about-image">
+          <div class="about-image-wrapper">
+            <img
+              src="./assets/photo_2026-10-03_08-57-01.jpg"
+              alt="Aryan Kumar Singh"
+            />
+          </div>
+        </div>
+
+        <!-- ================= RIGHT ================= -->
+
+        <div class="about-content">
+          <p class="section-subtitle">ABOUT ME</p>
+          <h2>
+            Turning ideas into
+            <span>digital experiences.</span>
+          </h2>
+          <p class="about-intro">
+            I'm Aryan Kumar Singh, a Full Stack Developer and MCA student
+            passionate about building responsive, practical and user-focused web
+            applications.
+          </p>
+
+          <p>
+            I enjoy working across both frontend and backend development. My
+            experience includes building interfaces with HTML, CSS, JavaScript
+            and React, as well as developing backend applications and APIs using
+            Node.js and MySQL.
+          </p>
+
+          <p>
+            I believe in learning by building. Most of my technical knowledge
+            has come from developing real projects, experimenting with different
+            technologies and continuously improving my problem-solving skills.
+          </p>
+
+          <!-- ================= QUICK INFO ================= -->
+
+          <div class="about-info">
+            <div class="info-item">
+              <span class="info-label"> Education </span>
+              <strong> MCA </strong>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"> Focus </span>
+              <strong> Full Stack Development </strong>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"> Currently Learning </span>
+              <strong> React & Node.js </strong>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label"> Open To </span>
+
+              <strong> Opportunities </strong>
+            </div>
+          </div>
+
+          <!-- ================= BUTTON ================= -->
+
+          <div class="about-button">
+            <a href="../portfolio/assets/Aryan_Singh_FullStack_Resume.docx" class="about-btn" target="_blank">
+              View Resume ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= SKILLS SECTION ================= -->
+
+    <section class="skills-section" id="skills">
+      <div class="section-header">
+        <p class="section-subtitle">MY SKILLS</p>
+
+        <h2>Technologies I Work With</h2>
+
+        <p>
+          A collection of technologies and tools I use to build modern and
+          responsive web applications.
+        </p>
+      </div>
+
+      <div class="skills-container">
+        <!-- HTML -->
+        <div class="skill-card">
+          <div class="skill-icon">HTML</div>
+
+          <div class="skill-info">
+            <h3>HTML5</h3>
+
+            <span>Frontend</span>
+
+            <p>Semantic and accessible structure for modern web pages.</p>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+          <div class="skill-icon">CSS</div>
+
+          <div class="skill-info">
+            <h3>CSS3</h3>
+
+            <span>Frontend</span>
+
+            <p>Responsive layouts, animations and modern UI styling.</p>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+          <div class="skill-icon">JS</div>
+
+          <div class="skill-info">
+            <h3>JavaScript</h3>
+
+            <span>Programming</span>
+
+            <p>Interactive and dynamic functionality for web applications.</p>
+          </div>
+        </div>
+
+        <!-- React -->
+        <div class="skill-card">
+          <div class="skill-icon">R</div>
+
+          <div class="skill-info">
+            <h3>React</h3>
+
+            <span>Frontend</span>
+
+            <p>Component-based interfaces and modern frontend applications.</p>
+          </div>
+        </div>
+
+        <!-- Node.js -->
+        <div class="skill-card">
+          <div class="skill-icon">N</div>
+
+          <div class="skill-info">
+            <h3>Node.js</h3>
+
+            <span>Backend</span>
+
+            <p>Server-side applications and REST API development.</p>
+          </div>
+        </div>
+
+        <!-- PHP -->
+        <div class="skill-card">
+          <div class="skill-icon">PHP</div>
+
+          <div class="skill-info">
+            <h3>PHP</h3>
+
+            <span>Backend</span>
+
+            <p>Dynamic web applications and backend development.</p>
+          </div>
+        </div>
+
+        <!-- MySQL -->
+        <div class="skill-card">
+          <div class="skill-icon">SQL</div>
+
+          <div class="skill-info">
+            <h3>MySQL</h3>
+
+            <span>Database</span>
+
+            <p>Relational database design, queries and data management.</p>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="skill-card">
+          <div class="skill-icon">Git</div>
+
+          <div class="skill-info">
+            <h3>Git & GitHub</h3>
+
+            <span>Tools</span>
+
+            <p>Version control and collaborative software development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section class="projects-section" id="projects">
+      <div class="section-header">
+        <p class="section-subtitle">MY WORK</p>
+
+        <h2>Featured Projects</h2>
+
+        <p>
+          A selection of projects I've built while learning and working with
+          modern web technologies.
+        </p>
+      </div>
+
+      <div class="projects-container">
+        <!-- ================= PROJECT 1 ================= -->
+
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="https://sagartech.co.in/_next/image?url=https%3A%2F%2Fsagartech.co.in%2Fblogs%2Fwp-content%2Fuploads%2F2024%2F08%2FEcommerce-Website-Design-Feature-Image-scaled.webp&w=3840&q=75"
+              alt="MERN E-commerce Project"
+            />
+          </div>
+
+          <div class="project-content">
+            <span class="project-category"> Full Stack </span>
+            <span class="project-status developing">In Development</span>
+            
+            <h3>MERN E-Commerce Website</h3>
+
+            <p>
+              A responsive e-commerce application with product browsing, product
+              details, cart and wishlist functionality.
+            </p>
+
+            <div class="project-tech">
+              <span>React</span>
+              <span>Vite</span>
+              <span>JavaScript</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="#"
+                class="project-btn primary-project-btn"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="#"
+                class="project-btn secondary-project-btn"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= PROJECT 2 ================= -->
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./weatherApp.png" alt="Weather Application" />
+          </div>
+
+          <div class="project-content">
+            <span class="project-category"> Frontend </span>
+            <span class="project-status completed">Completed</span>
+            <h3>Weather Application</h3>
+
+            <p>
+              A responsive weather application that provides current weather
+              information using a weather API.
+            </p>
+
+            <div class="project-tech">
+              <span>React</span>
+              <span>Vite</span>
+              <span>API</span>
+              <span>Bootstrap</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://weatherapp-xpfr.onrender.com"
+                class="project-btn primary-project-btn"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="#"
+                class="project-btn secondary-project-btn"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= PROJECT 3 ================= -->
+
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4pbkmMMpFK7Ak8z53eeIO6Eo36f55CXz51BZuZ50XQ&s=10"
+              alt="Library Management System"
+            />
+          </div>
+
+          <div class="project-content">
+            <span class="project-category"> Backend </span>
+             <span class="project-status developing">In Development</span>
+
+            <h3>Library Management System</h3>
+
+            <p>
+              A web-based library management system for managing books,
+              students, issue records and returns.
+            </p>
+
+            <div class="project-tech">
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="#"
+                class="project-btn primary-project-btn"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="#"
+                class="project-btn secondary-project-btn"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ================= PROJECT 4 ================= -->
+
+        <article class="project-card">
+          <div class="project-image">
+            <img
+              src="https://i0.wp.com/blog.apnacomplex.com/wp-content/uploads/2022/06/Complaint-mgt.jpg?fit=1280%2C853&ssl=1"
+              alt="Student Complaint Management System"
+            />
+          </div>
+
+          <div class="project-content">
+            <span class="project-category"> Full Stack </span>
+            <span class="project-status developing">In Development</span>
+          
+            <h3>Student Complaint Management System</h3>
+
+            <p>
+              A platform designed to allow students to submit, track and manage
+              academic and campus-related issues.
+            </p>
+
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>REST API</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="#"
+                class="project-btn primary-project-btn"
+                target="_blank"
+              >
+                Live Demo ↗
+              </a>
+
+              <a
+                href="#"
+                class="project-btn secondary-project-btn"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- View More -->
+      <div class="projects-more">
+        <a href="#" class="view-more-btn"> View All Projects → </a>
+      </div>
+    </section>
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <!-- ================= LEFT ================= -->
+
+        <div class="contact-info">
+          <p class="section-subtitle">CONTACT ME</p>
+
+          <h2>
+            Let's work
+            <span>together.</span>
+          </h2>
+
+          <p class="contact-description">
+            Have a project idea, internship opportunity, or just want to
+            connect? Feel free to send me a message.
+          </p>
+
+          <!-- Email -->
+
+          <div class="contact-detail">
+            <div class="contact-icon">@</div>
+
+            <div>
+              <span>Email</span>
+
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=aryansingh92183@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                aryansingh92183@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Location -->
+
+          <div class="contact-detail">
+            <div class="contact-icon">●</div>
+
+            <div>
+              <span>Location</span>
+
+              <p>Noida, Uttar Pradesh, India</p>
+            </div>
+          </div>
+
+          <!-- Social links -->
+
+          <div class="social-links">
+            <a href="#" target="_blank"> GitHub </a>
+
+            <a href="#" target="_blank"> LinkedIn </a>
+          </div>
+        </div>
+
+        <!-- ================= FORM ================= -->
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" 
+          method="post" action="https://formspree.io/f/xovlwpdg"
+          >
+            <!-- Name -->
+
+            <div class="form-group">
+              <label for="name"> Your Name </label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+
+            <div class="form-group">
+              <label for="email"> Email Address </label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <!-- Subject -->
+
+            <div class="form-group">
+              <label for="subject"> Subject </label>
+
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is this about?"
+                required
+              />
+            </div>
+
+            <!-- Message -->
+
+            <div class="form-group">
+              <label for="message"> Message </label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit -->
+
+            <button type="submit" class="contact-submit">
+              Send Message
+              <span>→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+    <div class="footer-container">
+
+        <!-- About -->
+        <div class="footer-about">
+            <h2>Aryan Kumar Singh</h2>
+            <p>Full Stack Developer</p>
+            <p>
+                Building clean, responsive and user-friendly
+                web applications.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="footer-social">
+            <h3>Connect</h3>
+
+            <a href="https://github.com/object-aryan" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aryann-kumar-singh/?isSelfProfile=true" target="_blank">LinkedIn</a>
+            <a href="mailto:aryansingh92183@gmail.com">Email</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Aryan Kumar Singh. All Rights Reserved.</p>
+    </div>
+</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
